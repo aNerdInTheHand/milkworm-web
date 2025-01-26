@@ -13,11 +13,10 @@ export default function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="band" element={<Band />} />
-          <Route path="discography" element={<Discography />} />
-          <Route
-            path="discography/attack-of-the-milkworms"
-            element={<Album />}
-          />
+          <Route path="discography">
+            <Route index element={<Discography />} />
+            <Route path=":albumId" element={<Album />} />
+          </Route>
         </Route>
       </Routes>
     </BrowserRouter>
