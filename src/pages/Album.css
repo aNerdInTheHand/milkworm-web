@@ -1,0 +1,70 @@
+.album-page {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.album-header {
+  display: flex;
+  gap: 3rem;
+  margin-bottom: 4rem;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid var(--primary-color);
+  transform: skew(-2deg);
+}
+
+.album-artwork {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border: 2px solid var(--accent-color);
+  transform: skew(2deg);
+}
+
+.album-details {
+  flex: 1;
+  transform: skew(2deg);
+}
+
+.album-details h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+  letter-spacing: 0.3rem;
+}
+
+.album-meta {
+  color: var(--accent-color);
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.album-description {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.song-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .album-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .album-artwork {
+    width: 250px;
+    height: 250px;
+  }
+
+  .album-details h1 {
+    font-size: 2rem;
+  }
+} 

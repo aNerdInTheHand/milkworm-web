@@ -1,0 +1,31 @@
+.song {
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-left: 4px solid var(--secondary-color);
+  transition: transform 0.3s ease;
+}
+
+.song:hover {
+  transform: translateX(10px);
+}
+
+.song-title {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: var(--primary-color);
+}
+
+.lyrics {
+  font-family: monospace;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  white-space: pre-line;
+}
+
+.verse {
+  margin-bottom: 1rem;
+}
+
+.verse:last-child {
+  margin-bottom: 0;
+} 
