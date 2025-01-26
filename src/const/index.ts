@@ -4,6 +4,7 @@ export interface Song {
   title: string;
   lyrics: string;
   writtenBy?: string;
+  trackPosition: number;
 }
 
 export interface Album {

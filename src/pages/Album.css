@@ -52,6 +52,10 @@
 }
 
 @media (max-width: 768px) {
+  .album-page {
+    padding: 1rem;
+  }
+
   .album-header {
     flex-direction: column;
     align-items: center;

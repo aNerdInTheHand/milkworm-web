@@ -212,6 +212,138 @@ You can't remember being any other way
 You hold my hand and then it brings me back to you
         `,
       },
+      {
+        title: "SELL YOUR SOUL",
+        trackPosition: 5,
+        writtenBy: "Holvast",
+        lyrics: `
+You sold your body, just about gave it away
+To the first suitor, that promised he would stay
+And guess what happened he was gone before the dawn
+Some things you wish you knew, the moment you were born
+But you were ready, the second time around
+The price was higher, you stood your ground
+And so you came to learn, that everything has a cost
+The one who doesn't win, has always lost
+---
+You sold your car, it was a gift from your old man
+You didn't mean to, it wasn't in the plan
+A blue Camaro, nineteen sixty-nine
+With white go faster stripes, damn that car was fine
+And how you loved it, it reminded you of him
+Until that guy in L.A., opened up his wallet with a grin
+And so that memory of picking up the keys
+Disappeared faster than that car into the breeze
+---
+So sell your soul, sell your soul
+It's the last thing left to go
+Sell your soul, sell your soul
+Bidders welcome high and low
+Sell your soul, let it roll
+Dig yourself out of that hole
+Flash your cash, one mad dash
+It's just a soul what's the worst that could happen?
+---
+You sold your image, for just a thousand words
+And was it worth it? The lines are getting blurred
+And now you see yourself as someone else's pet
+And in the long run, what did you really get?
+---
+So sell your soul, sell your soul
+It's the last thing left to go
+Sell your soul, sell your soul
+Bidders welcome high and low
+Sell your soul, let it roll
+Dig yourself out of that hole
+Flash your cash, one mad dash
+It's just a soul what's the worst that could happen?
+---
+You sold it all, and now you want it back
+But you might find, the mirror can't uncrack
+---
+What's to be done?
+Live like you're on the run
+What's left to sell?
+Well since you're going to hell...
+---
+Sell your soul, sell your soul
+It's the last thing left to go
+Sell your soul, sell your soul
+Bidders welcome high and low
+Sell your soul, let it roll
+Dig yourself out of that hole
+Flash your cash, one mad dash
+It's just a soul what's the worst that could happen?
+        `,
+      },
+      {
+        title: "BOOSH",
+        trackPosition: 6,
+        writtenBy: "Woodhouse",
+        lyrics: `
+[Verse 1]
+   Bm             D
+As I drift into a sleep
+   Bm                 E
+An old man stares at me
+He calls me into his room
+And tells me about a tree
+Long flowing willow leaves
+Hanging above a lake
+Secrets are hidden deep
+Plunder is left to take
+---
+Sounds from out of sight
+It's a bitter twisted night
+You already know when you're
+gonna have to fight
+Sounds from out of sight
+It's a bitter twisted night
+You already know when you're gone
+---
+I set out to find the tree
+But all I can see is night
+Dark fingers pull at me
+Sharp teeth begin to bite
+Figures appear everywhere
+Halting me in my path
+A dark power  pulls me down
+And I know I'll feel his wrath 
+---
+Sounds from out of sight
+It's a bitter twisted night
+You already know when you're
+gonna have to fight
+Sounds from out of sight
+It's a bitter twisted night
+You already know when you're gone
+---
+I'm feeling ecstasy
+I'm on my way back home
+I know I'm going to see
+Some people of my own
+Old man who burdened me
+He has been left behind
+Outsiders start to flee
+Vengeance is on my mind
+---
+Sounds from out of sight
+It's a bitter twisted night
+You already know when you're
+gonna have to fight
+Sounds from out of sight
+It's a bitter twisted night
+You already know when you're gone
+---
+Sounds from out of sight
+It's a bitter twisted night
+You already know when you're
+gonna have to fight
+Sounds from out of sight
+It's a bitter twisted night
+You already know when you're gone
+        `,
+      },
     ].sort((a, b) => a.trackPosition - b.trackPosition),
   },
 ];

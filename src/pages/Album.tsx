@@ -53,6 +53,7 @@ export default function Album() {
               title={song.title}
               lyrics={song.lyrics}
               writtenBy={song.writtenBy}
+              trackPosition={song.trackPosition}
             />
           ))}
         </div>

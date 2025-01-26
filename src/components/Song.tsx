@@ -5,16 +5,24 @@ interface SongProps {
   title: string;
   lyrics: string;
   writtenBy?: string;
+  trackPosition: number;
 }
 
-export default function Song({ title, lyrics, writtenBy }: SongProps) {
+export default function Song({
+  title,
+  lyrics,
+  writtenBy,
+  trackPosition,
+}: SongProps) {
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
     <div className="song">
       <div className="song-header" onClick={() => setIsExpanded(!isExpanded)}>
         <div className="title-section">
-          <h3 className="song-title">{title}</h3>
+          <h3 className="song-title">
+            {trackPosition}) {title}
+          </h3>
           {writtenBy && <p className="written-by">({writtenBy})</p>}
         </div>
         <button className={`expand-button ${isExpanded ? "expanded" : ""}`}>
