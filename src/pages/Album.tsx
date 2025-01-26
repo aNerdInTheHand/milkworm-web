@@ -5,7 +5,7 @@ import {
   albums,
   type Song as SongType,
   type Album as AlbumType,
-} from "../const";
+} from "../const/index";
 import "./Album.css";
 
 export default function Album() {
@@ -47,8 +47,13 @@ export default function Album() {
 
       {!isUpcoming && (
         <div className="song-list">
-          {album.songs.map((song: SongType, index) => (
-            <Song key={index} title={song.title} lyrics={song.lyrics} />
+          {album.songs.map((song: SongType, index: number) => (
+            <Song
+              key={index}
+              title={song.title}
+              lyrics={song.lyrics}
+              writtenBy={song.writtenBy}
+            />
           ))}
         </div>
       )}

@@ -1,21 +1,35 @@
+import { useState } from "react";
 import "./Song.css";
 
 interface SongProps {
   title: string;
-  lyrics: string[];
+  lyrics: string;
+  writtenBy?: string;
 }
 
-export default function Song({ title, lyrics }: SongProps) {
+export default function Song({ title, lyrics, writtenBy }: SongProps) {
+  const [isExpanded, setIsExpanded] = useState(false);
+
   return (
     <div className="song">
-      <h3 className="song-title">{title}</h3>
-      <div className="lyrics">
-        {lyrics.map((verse, index) => (
-          <p key={index} className="verse">
-            {verse}
-          </p>
-        ))}
+      <div className="song-header" onClick={() => setIsExpanded(!isExpanded)}>
+        <div className="title-section">
+          <h3 className="song-title">{title}</h3>
+          {writtenBy && <p className="written-by">({writtenBy})</p>}
+        </div>
+        <button className={`expand-button ${isExpanded ? "expanded" : ""}`}>
+          LYRICS {isExpanded ? "−" : "+"}
+        </button>
       </div>
+      {isExpanded && (
+        <div className="lyrics">
+          {lyrics.split("\n").map((line, index) => (
+            <p key={index} className="verse">
+              {line}
+            </p>
+          ))}
+        </div>
+      )}
     </div>
   );
 }

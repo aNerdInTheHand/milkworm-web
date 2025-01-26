@@ -9,10 +9,52 @@
   transform: translateX(10px);
 }
 
+.song-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  cursor: pointer;
+  gap: 1rem;
+}
+
+.title-section {
+  flex: 1;
+}
+
 .song-title {
   font-size: 1.8rem;
-  margin-bottom: 1.5rem;
   color: var(--primary-color);
+  margin: 0;
+}
+
+.written-by {
+  font-size: 0.9rem;
+  color: var(--accent-color);
+  margin: 0.5rem 0 0 0;
+  font-style: italic;
+}
+
+.expand-button {
+  background: none;
+  border: 2px solid var(--accent-color);
+  color: var(--accent-color);
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 120px;
+  flex-shrink: 0;
+}
+
+.expand-button:hover {
+  background: var(--accent-color);
+  color: var(--background-color);
+  transform: scale(1.05);
+}
+
+.expand-button.expanded {
+  background: var(--accent-color);
+  color: var(--background-color);
 }
 
 .lyrics {
@@ -20,6 +62,9 @@
   font-size: 1.1rem;
   line-height: 1.8;
   white-space: pre-line;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .verse {
@@ -28,4 +73,17 @@
 
 .verse:last-child {
   margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .song-header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+  }
+
+  .expand-button {
+    width: 100%;
+    min-width: unset;
+  }
 } 
