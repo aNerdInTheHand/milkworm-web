@@ -1,9 +1,11 @@
 import { Link, Outlet } from "react-router-dom";
+import MilkwormPeek from "./MilkwormPeek";
 import "./Layout.css";
 
 export default function Layout() {
   return (
     <div className="app">
+      <MilkwormPeek />
       <header className="header">
         <h1 className="band-name">
           <Link to="/" className="band-name-link">

@@ -131,7 +131,7 @@ You couldn't play your bass, you couldn't play guitar
 How did you become a star
 ---
 It's a crying shame
-But maybe that's the price of fa-a-ame
+But maybe that's the price of fame
 Close your eyes
 And maybe you'll start to see
 ---
@@ -145,17 +145,17 @@ You didn't recognise me, all that we've been through
 Tell me who the fuck are you
 ---
 It's a crying shame
-But maybe that's the price of fa-a-ame
+But maybe that's the price of fame
 Close your eyes
 And maybe you'll start to see
 ---
 It's a crying shame
-That you can't remember my na-a-ame
+That you can't remember my name
 Close your eyes
 And maybe you'll start to see
 ---
 It's a crying shame
-That you can't remember my na-a-ame
+That you can't remember my name
 Close your eyes
 And maybe you'll start to see
         `,
@@ -167,11 +167,11 @@ And maybe you'll start to see
         lyrics: `
 I can hear you breathing
 I can feel you grieving
-You're feeling so co-o-old
+You're feeling so cold
 Your feelings unfold
 I got you on my mind
 I'm trying to be kind
-You feel so fa-a-ar
+You feel so far
 Away from my arms
 ---
 You say
@@ -188,9 +188,9 @@ I try to digest
 The words you spoke
 We lie up all night
 You can't explain
-You used up all your fi-i-ight
+You used up all your fight
 You can't contain
-
+---
 You say
 No way
 I can't do this any more
@@ -342,6 +342,199 @@ gonna have to fight
 Sounds from out of sight
 It's a bitter twisted night
 You already know when you're gone
+        `,
+      },
+      {
+        title: "LOVE ISN'T REAL",
+        trackPosition: 7,
+        writtenBy: "Woodhouse",
+        lyrics: `
+It's a shame
+Insane
+The way you're talking like you're gonna move around and around
+It's the same
+In name
+And it's always been the same old way
+---
+It's a crime
+Sublime
+The way you take it and you keep it and you're hiding it all
+All the ti-ime
+You cli-imb
+And your sidekick starts to shine
+---
+Oh when you told me that's how you feel
+Oh when you told me love isn't real
+---
+Oh when you told me that's how you feel
+Oh when you told me love isn't real
+---
+Walk away
+You say
+Because you're leaving at the end of the day no matter what
+I say
+And I pray
+That you're never coming back this time
+---
+You're gone
+So long
+I didn't think that I could be on my own every day 
+For good
+I could
+I could think about it every night
+---
+Oh when you told me that's how you feel
+Oh when you told me love isn't real
+---
+Oh when you told me that's how you feel
+Oh when you told me love isn't real
+---
+Oh when you told me that's how you feel
+Oh when you told me love isn't real
+---
+Oh when you told me that's how you feel
+Oh when you told me love isn't real
+---
+Oh when you told me that's how you feel
+Oh when you told me love isn't real
+        `,
+      },
+      {
+        title: "A BRIEF TREATISE ON THE VIRTUES OF ROCK AND/OR ROLL",
+        trackPosition: 8,
+        writtenBy: "Woodhouse",
+        lyrics: `
+You talk about it like it's all the same
+You don't get why it's a crying shame 
+You can't feel it getting under your wings
+You don't appreciate the finer things
+You like to go out in your fancy shoes
+But you don't realise you're missing the blues
+If you can last a second without your heels
+I can show you how nirvana feels
+---
+From the edge of the sea
+To the mountains and snow
+You can take it with you everywhere you go
+In the glorious sun
+Or in the pouring rain
+There's music running through your veins
+---
+I hear the hum when I plug in the jack
+I feel it hit me like a heart attack
+The chords ring out like a roaring beast
+It's a moving pentatonic minor ear feast
+Euphoric bliss rushes over the crowd
+The only way to listen is to turn up loud
+I couldn't live if I didn't have rock
+Don't need the roll, if I had to stop
+---
+From the edge of the sea
+To the mountains of snow
+To the mountains of snow
+You can take it with you everywhere you go
+In the light of the day
+And in the dark of the night
+You can feel the rhythm when you're out of sight
+---
+When you're out in the woods 
+In the cradle of fear
+You can hear the melody with nobody near
+In the glorious sun
+Or in the pouring rain
+There's music running through your veins
+---
+From the edge of the sea
+To the mountains of snow
+To the mountains of snow
+You can take it with you everywhere you go
+In the light of the day
+And in the dark of the night
+You can feel the rhythm when you're out of sight
+        `,
+      },
+      {
+        title: "PRETTY AS A PICTURE",
+        trackPosition: 9,
+        writtenBy: "Holvast",
+        lyrics: `
+Pretty as a picture, on someone else's wall
+He'd hang you up, just to watch you fall
+Singing like a songbird, for nobody to hear
+Sitting in your cage, trying to catch his ear
+---
+And why did you think that a man like him could change
+Call it what it is it's just another dream out of range
+---
+Pretty little dreamer, wishing it away
+He'll let you know, just what to say
+Pretty as a picture, anyone can see
+She's not for hanging up, gotta set her free
+---
+And why did you think that a man like him could change
+Call it what it is it's just another dream out of range
+---
+She's just a tree falling in the woods
+Everything was good until he caught her
+Even though she needed to fall
+Even though she needed to fall
+---
+And why did you think that a man like him could change
+Call it what it is it's just another dream out of range
+        `,
+      },
+      {
+        title: "MAKE MUSIC",
+        trackPosition: 10,
+        writtenBy: "Holvast",
+        lyrics: `
+I used to have a singer
+Every day I'd ring her on the telephone
+I'd give her an idea
+Then go and get a beer while she made it her own
+---
+That girl could really wail
+She put the wind into my sail and the wood on my fire
+One day I up and told her
+That I really had to hold her 'cause she was my one true desire
+---
+Make music, make love
+Isn't it all just the same
+Like a word from above
+Over and over and over again
+Make music, all around
+In the light and the dark and the sun and the rain
+Like a wheel turning round
+Over and over and over again
+---
+I was her guitarist
+She thought I was an artist when I wrote her a song
+I wrote her every day
+And she asked if I would play while she sang along
+---
+She didn't like my lyrics
+She wanted to be in it so I tried again
+I never had a muse
+That I couldn't stand to lose I couldn't bear the pain
+---
+Make music, make love
+Isn't it all just the same
+Like a word from above
+Over and over and over again
+Make music, all around
+In the light and the dark and the sun and the rain
+Like a wheel turning round
+Over and over and over again
+---
+Out of love
+Out of time
+Losing you
+Losing my mind
+---
+She didn't need to hear me
+Like I needed her right near me so she walked out the door
+And now I make my music
+Somewhere no-one can refuse it any more
         `,
       },
     ].sort((a, b) => a.trackPosition - b.trackPosition),

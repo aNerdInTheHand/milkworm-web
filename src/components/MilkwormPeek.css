@@ -1,0 +1,56 @@
+.milkworm-peek {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1000;
+}
+
+.peek {
+  position: fixed;
+  /* object-fit: cover; */
+  /* border-radius: 50%;
+  border: 3px solid var(--accent-color); */
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); */
+}
+
+.peek.matthew {
+  top: 50%;
+  width: 169px;
+  height: 193px;
+  transform: translateY(-50%) translateX(100%);
+  right: 0px;
+  animation: peekFromRight 20s infinite;
+}
+
+.peek.nick {
+  left: 85%;
+  width: 125px;
+  height: 185px;
+  transform: translateX(-50%) translateY(100%);
+  bottom: 0;
+  animation: peekFromBottom 20s infinite;
+  animation-delay: 10s;
+}
+
+@keyframes peekFromRight {
+  /* At 0%, 80%, and 100% of the animation duration */
+  0%, 30%, 100% {
+    transform: translateY(-50%) translateX(100%);
+  }
+  /* At 5% and 15% of the animation duration */
+  5%, 15% {
+    transform: translateY(-50%) translateX(0);
+  }
+}
+
+@keyframes peekFromBottom {
+  0%, 30%, 100% {
+    transform: translateX(-50%) translateY(100%);
+  }
+  5%, 15% {
+    transform: translateX(-50%) translateY(0);
+  }
+}
