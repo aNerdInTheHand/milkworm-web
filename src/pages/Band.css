@@ -16,7 +16,7 @@
 .members {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 4rem;
+  gap: 2rem;
   padding: 2rem;
 }
 
@@ -54,14 +54,6 @@
   z-index: -1;
 }
 
-.member-image.nick {
-  background-image: url('/milkworm-web/nick.png');
-}
-
-.member-image.matthew {
-  background-image: url('/milkworm-web/matthew.png');
-}
-
 .member h2 {
   font-size: 2rem;
   margin-bottom: 0.5rem;
@@ -79,6 +71,16 @@
   line-height: 1.6;
 }
 
+.bio-title {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.bio ul {
+  list-style-type: none;
+  padding: 0;
+}
+
 @media (max-width: 768px) {
   .band-title {
     font-size: 2rem;
@@ -91,5 +93,10 @@
   .member-image {
     width: 200px;
     height: 200px;
+  }
+
+  .member {
+    padding: 1rem;
+    margin: 0;
   }
 } 

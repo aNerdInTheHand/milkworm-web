@@ -4,7 +4,7 @@ export default [
   {
     id: "attack-of-the-milkworms",
     title: "ATTACK OF THE MILKWORMS",
-    releaseDate: "2024-06-15", // Future release date
+    releaseDate: "2025-06-15", // Future release date
     description:
       "Our debut album, featuring an eclectic mix of psychedelic rock and dairy-inspired soundscapes.",
     coverImage: `${base}attack-of-the-milkworms.webp`,
