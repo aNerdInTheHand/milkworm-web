@@ -1,3 +1,5 @@
+const base = import.meta.env.BASE_URL;
+
 export default [
   {
     id: "attack-of-the-milkworms",
@@ -5,7 +7,7 @@ export default [
     releaseDate: "2024-06-15", // Future release date
     description:
       "Our debut album, featuring an eclectic mix of psychedelic rock and dairy-inspired soundscapes.",
-    coverImage: "/attack-of-the-milkworms.webp",
+    coverImage: `${base}attack-of-the-milkworms.webp`,
     songs: [
       {
         title: "KARMA IS DEAD",
