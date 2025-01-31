@@ -1,0 +1,70 @@
+.not-found {
+  text-align: center;
+  padding: 4rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.not-found h1 {
+  font-size: 8rem;
+  margin: 0;
+  color: var(--primary-color);
+  text-shadow: 3px 3px 0 var(--accent-color);
+  animation: glitch 2s infinite;
+}
+
+.not-found h2 {
+  font-size: 2rem;
+  margin: 1rem 0;
+  color: var(--accent-color);
+}
+
+.not-found p {
+  font-size: 1.2rem;
+  margin: 2rem 0;
+}
+
+.not-found .home-link {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: var(--primary-color);
+  color: var(--background-color);
+  text-decoration: none;
+  transform: skew(-2deg);
+  transition: transform 0.3s ease;
+}
+
+.not-found .home-link:hover {
+  transform: skew(-2deg) scale(1.05);
+}
+
+.milkworm-jumpscare {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto 2rem;
+  border: 2px solid var(--accent-color);
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.milkworm-jumpscare::after {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: -10px;
+  bottom: -10px;
+  border: 2px solid var(--accent-color);
+  z-index: -1;
+}
+
+@media (max-width: 768px) {
+  .not-found h1 {
+    font-size: 6rem;
+  }
+  
+  .not-found h2 {
+    font-size: 1.5rem;
+  }
+} 

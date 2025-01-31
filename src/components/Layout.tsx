@@ -20,9 +20,9 @@ export default function Layout() {
           <Link to="/band" className="nav-link">
             THE BAND
           </Link>
-          <Link to="/discography" className="nav-link">
+          {/* <Link to="/discography" className="nav-link">
             THE MUSIC
-          </Link>
+          </Link> */}
         </nav>
       </header>
 
@@ -32,7 +32,8 @@ export default function Layout() {
 
       <footer className="footer">
         <div className="social-links">
-          <a href="#" className="social-link">
+          <p>Look out for socials coming soon...</p>
+          {/* <a href="#" className="social-link">
             INSTAGRAM
           </a>
           <a href="#" className="social-link">
@@ -40,7 +41,7 @@ export default function Layout() {
           </a>
           <a href="#" className="social-link">
             BANDCAMP
-          </a>
+          </a> */}
         </div>
       </footer>
     </div>

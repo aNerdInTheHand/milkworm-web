@@ -5,7 +5,7 @@ export default function Home() {
 
   return (
     <>
-      <section className="hero">
+      {/* <section className="hero">
         <div className="hero-content">
           <h2>NEXT SHOW</h2>
           <div className="show-details">
@@ -15,14 +15,18 @@ export default function Home() {
             <button className="tickets-btn">GET TICKETS</button>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="about">
+        <h2>ATTACK OF THE MILKWORMS</h2>
         <p className="bio">
-          We're The Milkworms, a psychedelic rock band that crawled out of the
-          underground music scene of South Shields like larvae emerging from
-          spoiled dairy. Our sound? Imagine if Pink Floyd had a fever dream in a
-          cheese cave.
+          There's something happening here...
+          <br />
+          What it is ain't exactly clear...
+          <br />
+          But it might have something to do with the milk in these worms...
+          <br />
+          Yes, brace yourself, for THE MILKWORMS are coming.
         </p>
       </section>
 
@@ -36,8 +40,8 @@ export default function Home() {
           />
           <div className="album-info">
             <h3>"ATTACK OF THE MILKWORMS"</h3>
-            <p>Out Now on Spotify</p>
-            <button className="listen-btn">LISTEN NOW</button>
+            <p>Coming soon...</p>
+            {/* <button className="listen-btn">LISTEN NOW</button> */}
           </div>
         </div>
       </section>
