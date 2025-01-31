@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import "./MilkwormPeek.css";
 
 export default function MilkwormPeek() {
