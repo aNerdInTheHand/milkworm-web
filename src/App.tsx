@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import Band from "./pages/Band";
@@ -8,17 +8,15 @@ import "./App.css";
 
 export default function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="band" element={<Band />} />
-          <Route path="discography">
-            <Route index element={<Discography />} />
-            <Route path=":albumId" element={<Album />} />
-          </Route>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="band" element={<Band />} />
+        <Route path="discography">
+          <Route index element={<Discography />} />
+          <Route path=":albumId" element={<Album />} />
         </Route>
-      </Routes>
-    </BrowserRouter>
+      </Route>
+    </Routes>
   );
 }
