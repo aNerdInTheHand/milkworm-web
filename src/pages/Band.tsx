@@ -15,7 +15,7 @@ export default function Band() {
           ></div>
           <h2>NICK</h2>
           <p className="role">Guitar / Bass / Vocals / Production</p>
-          <p className="bio">
+          <div className="bio">
             <span className="bio-title">Likes:</span> <br />
             <ul>
               <li>Strats</li>
@@ -27,7 +27,7 @@ export default function Band() {
               <li>Major chords</li>
               <li>Or is it minor chords..?</li>
             </ul>
-          </p>
+          </div>
         </div>
 
         <div className="member">
@@ -37,7 +37,7 @@ export default function Band() {
           ></div>
           <h2>MATTHEW</h2>
           <p className="role">Guitar / Bass / Vocals / Production</p>
-          <p className="bio">
+          <div className="bio">
             <span className="bio-title">Likes:</span> <br />
             <ul>
               <li>Vocal Saturation</li>
@@ -49,7 +49,7 @@ export default function Band() {
               <li>Bm7</li>
               <li>Snakes</li>
             </ul>
-          </p>
+          </div>
         </div>
       </div>
     </div>

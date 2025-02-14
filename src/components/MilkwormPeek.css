@@ -17,7 +17,7 @@
   width: 169px;
   height: 193px;
   transform: translateY(-50%) translateX(100%);
-  right: 0px;
+  right: 0;
   animation: peekFromRight 20s infinite;
 }
 
@@ -32,11 +32,9 @@
 }
 
 @keyframes peekFromRight {
-  /* At 0%, 80%, and 100% of the animation duration */
   0%, 30%, 100% {
     transform: translateY(-50%) translateX(100%);
   }
-  /* At 5% and 15% of the animation duration */
   5%, 15% {
     transform: translateY(-50%) translateX(0);
   }
