@@ -6,8 +6,8 @@ export default function Layout() {
   return (
     <div className="layout">
       <MilkwormPeek />
-      <div className="content-container">
-        <header className="header">
+      <header className="header">
+        <div className="content-container">
           <h1 className="band-name">
             <Link to="/" className="band-name-link">
               THE MILKWORMS
@@ -25,13 +25,17 @@ export default function Layout() {
               THE MUSIC
             </Link> */}
           </nav>
-        </header>
+        </div>
+      </header>
 
-        <main className="main-content">
+      <main className="main-content">
+        <div className="content-container">
           <Outlet />
-        </main>
+        </div>
+      </main>
 
-        <footer className="footer">
+      <footer className="footer">
+        <div className="content-container">
           <div className="social-links">
             <p>Look out for socials coming soon...</p>
             {/* <a href="#" className="social-link">
@@ -44,8 +48,8 @@ export default function Layout() {
               BANDCAMP
             </a> */}
           </div>
-        </footer>
-      </div>
+        </div>
+      </footer>
     </div>
   );
 }
