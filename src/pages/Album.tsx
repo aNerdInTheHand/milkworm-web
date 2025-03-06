@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import Song from "../components/Song";
 import Countdown from "../components/Countdown";
+import RandomLyrics from "../components/RandomLyrics";
 import {
   albums,
   type Song as SongType,
@@ -43,7 +44,12 @@ export default function Album() {
         </div>
       </div>
 
-      {isUpcoming && <Countdown releaseDate={album.releaseDate} />}
+      {isUpcoming && (
+        <>
+          <Countdown releaseDate={album.releaseDate} />
+          <RandomLyrics album={album} />
+        </>
+      )}
 
       {!isUpcoming && (
         <div className="song-list">
