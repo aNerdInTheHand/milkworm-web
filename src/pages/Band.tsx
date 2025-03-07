@@ -57,7 +57,7 @@ export default function Band() {
             </ul>
             <span className="bio-title">Currently Listening To:</span> <br />
             <ul>
-              <li>Ace Monroe</li>
+              <li>Jax Hollow</li>
               <li>Andy Fairweather-Low</li>
               <li>Jim Croce</li>
               <li>Eilen Jewell</li>
@@ -84,17 +84,18 @@ export default function Band() {
             </ul>
             <span className="bio-title">Favourite Artists:</span> <br />
             <ul>
+              <li>Iron Maiden</li>
+              <li>The Eagles</li>
               <li>Aerosmith</li>
-              <li>Led Zeppelin</li>
-              <li>The Beatles</li>
-              <li>Deep Purple</li>
-              <li>Hannah Wicklund</li>
+              <li>Bon Jovi</li>
+              <li>Def Leppard</li>
             </ul>
             <span className="bio-title">Currently Listening To:</span> <br />
             <ul>
-              <li>Jax Hollow</li>
-              <li>Andy Fairweather-Low</li>
-              <li>Jim Croce</li>
+              <li>Greta Van Fleet</li>
+              <li>Sam Fender</li>
+              <li>The 1975</li>
+              <li>Dave Hause</li>
             </ul>
           </div>
         </div>
