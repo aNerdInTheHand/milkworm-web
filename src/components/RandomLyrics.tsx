@@ -10,7 +10,7 @@ type RandomLyricsProps = {
   album: {
     songs: {
       title: string;
-      previewLyrics: string;
+      previewLyrics: string[];
     }[];
   };
 };
