@@ -21,9 +21,9 @@ export default function Layout() {
             <Link to="/band" className="nav-link">
               THE BAND
             </Link>
-            {/* <Link to="/discography" className="nav-link">
+            <Link to="/discography" className="nav-link">
               THE MUSIC
-            </Link> */}
+            </Link>
           </nav>
         </div>
       </header>

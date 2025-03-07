@@ -5,7 +5,30 @@ export default function Band() {
 
   return (
     <div className="band-page">
-      <h1 className="band-title">THE MASTERMINDS</h1>
+      <h1 className="band-title">THE BAND</h1>
+
+      <div className="intro">
+        <p>The Milkworms are a two-piece rock band from Nort East England.</p>
+        <br />
+        <p>
+          We're a pair of (primarily) guitarists who've been playing together
+          for the best part of two decades, across a few different bands.
+        </p>
+        <br />
+        <p>
+          The band doesn't have a lead and rhythm guitarist, we just each pick
+          the parts we want to play on a song-by-song basis.
+        </p>
+        <br />
+        <p>
+          We've been discussing our influences recently, and it occurred to us
+          that the artsts who have <i>influenced</i> us our sounds aren't
+          necessarily just our <i>favourite</i> artists. With that in mind, you
+          can see below our influences (what you might hear in our playing, or
+          songwriting, or tonal choices), our favourite artists, and what we're
+          listening to right now.
+        </p>
+      </div>
 
       <div className="members">
         <div className="member">
@@ -16,16 +39,29 @@ export default function Band() {
           <h2>NICK</h2>
           <p className="role">Guitar / Bass / Vocals / Production</p>
           <div className="bio">
-            <span className="bio-title">Likes:</span> <br />
+            <span className="bio-title">Influences:</span> <br />
             <ul>
-              <li>Strats</li>
-              <li>Whammy Bars</li>
-              <li>Cats</li>
+              <li>Eric Clapton</li>
+              <li>Carlos Santana</li>
+              <li>Joe Walsh</li>
+              <li>Jimi Hendrix</li>
+              <li>Pete Townshend</li>
             </ul>
-            <span className="bio-title">Dislikes:</span> <br />
+            <span className="bio-title">Favourite Artists:</span> <br />
             <ul>
-              <li>Major chords</li>
-              <li>Or is it minor chords..?</li>
+              <li>The Who</li>
+              <li>Led Zeppelin</li>
+              <li>The Beatles</li>
+              <li>Deep Purple</li>
+              <li>Hannah Wicklund</li>
+            </ul>
+            <span className="bio-title">Currently Listening To:</span> <br />
+            <ul>
+              <li>Ace Monroe</li>
+              <li>Andy Fairweather-Low</li>
+              <li>Jim Croce</li>
+              <li>Eilen Jewell</li>
+              <li>The Cadillac Three</li>
             </ul>
           </div>
         </div>
@@ -38,16 +74,27 @@ export default function Band() {
           <h2>MATTHEW</h2>
           <p className="role">Guitar / Bass / Vocals / Production</p>
           <div className="bio">
-            <span className="bio-title">Likes:</span> <br />
+            <span className="bio-title">Influences:</span> <br />
             <ul>
-              <li>Vocal Saturation</li>
-              <li>Toms</li>
-              <li>Going fast</li>
+              <li>Bon Jovi</li>
+              <li>Def Leppard</li>
+              <li>Sum 41</li>
+              <li>Steve Vai</li>
+              <li>Nickelback</li>
             </ul>
-            <span className="bio-title">Dislikes:</span> <br />
+            <span className="bio-title">Favourite Artists:</span> <br />
             <ul>
-              <li>Bm7</li>
-              <li>Snakes</li>
+              <li>Aerosmith</li>
+              <li>Led Zeppelin</li>
+              <li>The Beatles</li>
+              <li>Deep Purple</li>
+              <li>Hannah Wicklund</li>
+            </ul>
+            <span className="bio-title">Currently Listening To:</span> <br />
+            <ul>
+              <li>Jax Hollow</li>
+              <li>Andy Fairweather-Low</li>
+              <li>Jim Croce</li>
             </ul>
           </div>
         </div>
