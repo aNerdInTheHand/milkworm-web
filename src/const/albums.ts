@@ -5,8 +5,7 @@ export default [
     id: "attack-of-the-milkworms",
     title: "ATTACK OF THE MILKWORMS",
     releaseDate: "2025-06-15", // Future release date
-    description:
-      "Our debut album, featuring an eclectic mix of psychedelic rock and dairy-inspired soundscapes.",
+    description: "Our debut album, coming soon. Good old guitar-based fun.",
     coverImage: `${base}attack-of-the-milkworms.webp`,
     songs: [
       {
@@ -75,6 +74,24 @@ Let me tell you darling that's the way it's got to be
 I'm looking in the mirror, I see karma is dead
 If it ever was alive, even just in my head
         `,
+        previewLyrics: [
+          `
+I'm looking in the mirror, I see karma is dead
+If it ever was alive, even just in my head
+        `,
+          `
+No pearly gates of judgement, no final bill to pay
+So if you wanna do something, do it anyway
+        `,
+          `
+I used to think that things had to be done in the right way
+But now I just do whatever gets me through the day
+        `,
+          `
+You say I'm sacrificing the things that made me me
+Let me tell you darling that's the way it's got to be
+        `,
+        ],
       },
       {
         title: "LESS IS MORE",
@@ -117,6 +134,16 @@ Say you love me once in a while
 As you show me out the door
 You remind me that less is more
         `,
+        previewLyrics: [
+          `
+I always thought you'd come around
+When I was lost it was you I found
+          `,
+          `
+You let me in, with a smile
+Say you love me once in a while
+          `,
+        ],
       },
       {
         title: "CRYIN' SHAME (WHO THE FUCK ARE YOU)",
@@ -161,6 +188,16 @@ That you can't remember my name
 Close your eyes
 And maybe you'll start to see
         `,
+        previewLyrics: [
+          `
+You were always hiding, sitting at the back
+Leaning up against the stack
+          `,
+          `
+It's a crying shame
+But maybe that's the price of fame
+          `,
+        ],
       },
       {
         title: "BRINGS ME BACK",
@@ -213,6 +250,20 @@ It's like I go to pieces every time you say
 You can't remember being any other way
 You hold my hand and then it brings me back to you
         `,
+        previewLyrics: [
+          `
+I can hear you breathing
+I can feel you grieving
+        `,
+          `
+I got you on my mind
+I'm trying to be kind
+          `,
+          `
+It's four in the morning and we're talking about
+How to make it through another endless night
+          `,
+        ],
       },
       {
         title: "SELL YOUR SOUL",
@@ -277,16 +328,31 @@ Dig yourself out of that hole
 Flash your cash, one mad dash
 It's just a soul what's the worst that could happen?
         `,
+        previewLyrics: [
+          `
+You sold your body, just about gave it away
+To the first suitor, that promised he would stay
+          `,
+          `
+Flash your cash, one mad dash
+It's just a soul what's the worst that could happen?
+          `,
+          `
+You sold it all, and now you want it back
+But you might find, the mirror can't uncrack
+          `,
+          `
+What's to be done?
+Live like you're on the run
+          `,
+        ],
       },
       {
         title: "BOOSH",
         trackPosition: 6,
         writtenBy: "Woodhouse",
         lyrics: `
-[Verse 1]
-   Bm             D
 As I drift into a sleep
-   Bm                 E
 An old man stares at me
 He calls me into his room
 And tells me about a tree
@@ -345,6 +411,20 @@ Sounds from out of sight
 It's a bitter twisted night
 You already know when you're gone
         `,
+        previewLyrics: [
+          `
+I'm feeling ecstasy
+I'm on my way back home
+          `,
+          `
+Sounds from out of sight
+It's a bitter twisted night
+          `,
+          `
+Outsiders start to flee
+Vengeance is on my mind
+          `,
+        ],
       },
       {
         title: "LOVE ISN'T REAL",
@@ -361,8 +441,8 @@ And it's always been the same old way
 It's a crime
 Sublime
 The way you take it and you keep it and you're hiding it all
-All the ti-ime
-You cli-imb
+All the tiime
+You cliimb
 And your sidekick starts to shine
 ---
 Oh when you told me that's how you feel
@@ -400,6 +480,24 @@ Oh when you told me love isn't real
 Oh when you told me that's how you feel
 Oh when you told me love isn't real
         `,
+        previewLyrics: [
+          `
+Oh when you told me that's how you feel
+Oh when you told me love isn't real
+          `,
+          `
+Oh when you told me that's how you feel
+Oh when you told me love isn't real
+          `,
+          `
+I didn't think that I could be on my own every day 
+For good
+          `,
+          `
+The way you take it and you keep it and you're hiding it all
+All the tiime
+          `,
+        ],
       },
       {
         title: "A BRIEF TREATISE ON THE VIRTUES OF ROCK AND/OR ROLL",
@@ -454,6 +552,20 @@ In the light of the day
 And in the dark of the night
 You can feel the rhythm when you're out of sight
         `,
+        previewLyrics: [
+          `
+From the edge of the sea
+To the mountains of snow
+          `,
+          `
+When you're out in the woods 
+In the cradle of fear
+          `,
+          `
+If you can last a second without your heels
+I can show you how nirvana feels
+          `,
+        ],
       },
       {
         title: "PRETTY AS A PICTURE",
@@ -484,6 +596,20 @@ Even though she needed to fall
 And why did you think that a man like him could change
 Call it what it is it's just another dream out of range
         `,
+        previewLyrics: [
+          `
+She's just a tree falling in the woods
+Everything was good until he caught her
+          `,
+          `
+And why did you think that a man like him could change
+Call it what it is it's just another dream out of range
+          `,
+          `
+Pretty as a picture, on someone else's wall
+He'd hang you up, just to watch you fall
+          `,
+        ],
       },
       {
         title: "MAKE MUSIC",
@@ -538,6 +664,20 @@ Like I needed her right near me so she walked out the door
 And now I make my music
 Somewhere no-one can refuse it any more
         `,
+        previewLyrics: [
+          `
+I never had a muse
+That I couldn't stand to lose I couldn't bear the pain
+          `,
+          `
+Make music, make love
+Isn't it all just the same
+          `,
+          `
+That girl could really wail
+She put the wind into my sail and the wood on my fire
+          `,
+        ],
       },
     ].sort((a, b) => a.trackPosition - b.trackPosition),
   },

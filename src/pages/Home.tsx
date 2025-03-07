@@ -24,9 +24,7 @@ export default function Home() {
           <br />
           What it is ain't exactly clear...
           <br />
-          But it might have something to do with the milk in these worms...
-          <br />
-          Yes, brace yourself, for THE MILKWORMS are coming.
+          Brace yourself, for THE MILKWORMS are coming.
         </p>
       </section>
 

@@ -13,6 +13,16 @@
   animation: glitch 2s infinite;
 }
 
+.intro {
+  max-width: 800px;
+  margin: 0 auto 4rem;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-left: 4px solid var(--secondary-color);
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
 .members {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
