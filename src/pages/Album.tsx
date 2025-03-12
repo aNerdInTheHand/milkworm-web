@@ -38,9 +38,7 @@ export default function Album() {
             frameBorder="no"
             allow="autoplay"
             src={`https://w.soundcloud.com/player/?url=${
-              new URL(
-                "https://soundcloud.com/the-milkworms/attack-of-the-milkworms-album-teaser"
-              ).pathname
+              new URL(album.soundcloudLink).pathname
             }&color=%23d4dcda&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true`}
           ></iframe>
         </section>
