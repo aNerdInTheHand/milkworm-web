@@ -79,7 +79,7 @@ export default function Band() {
               <li>Bon Jovi</li>
               <li>Def Leppard</li>
               <li>Sum 41</li>
-              <li>Steve Vai</li>
+              <li>Stevie Ray Vaughan</li>
               <li>Nickelback</li>
             </ul>
             <span className="bio-title">Favourite Artists:</span> <br />

@@ -5,7 +5,10 @@ export default [
     id: "attack-of-the-milkworms",
     title: "ATTACK OF THE MILKWORMS",
     releaseDate: "2025-06-15", // Future release date
-    description: "Our debut album, coming soon. Good old guitar-based fun.",
+    description:
+      "Our debut album, coming soon. Good old guitar-based fun. Listen to the album teaser here!",
+    soundcloudLink:
+      "https://soundcloud.com/the-milkworms/attack-of-the-milkworms-album-teaser",
     coverImage: `${base}attack-of-the-milkworms.webp`,
     songs: [
       {

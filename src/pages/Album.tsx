@@ -30,11 +30,20 @@ export default function Album() {
   return (
     <div className="album-page">
       <div className="album-header">
-        <img
-          src={album.coverImage}
-          alt={`${album.title} Album Cover`}
-          className="album-artwork"
-        />
+        <section className="flex-shrink-0">
+          <iframe
+            width="100%"
+            height="300"
+            scrolling="no"
+            frameBorder="no"
+            allow="autoplay"
+            src={`https://w.soundcloud.com/player/?url=${
+              new URL(
+                "https://soundcloud.com/the-milkworms/attack-of-the-milkworms-album-teaser"
+              ).pathname
+            }&color=%23d4dcda&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true`}
+          ></iframe>
+        </section>
         <div className="album-details">
           <h1>{album.title}</h1>
           <p className="album-meta">
