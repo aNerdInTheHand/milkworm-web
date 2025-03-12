@@ -14,6 +14,7 @@ export interface Album {
   description: string;
   coverImage: string;
   songs: Song[];
+  soundcloudLink: string;
 }
 
 export { albums };
