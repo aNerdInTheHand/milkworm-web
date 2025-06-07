@@ -31,11 +31,13 @@ export default function Home() {
       <section className="latest-release">
         <h2>LATEST RELEASE</h2>
         <div className="album">
-          <img
-            src={`${base}attack-of-the-milkworms.webp`}
-            alt="Attack of the Milkworms Album Cover"
-            className="album-art"
-          />
+          <a href="/#/discography/attack-of-the-milkworms">
+            <img
+              src={`${base}attack-of-the-milkworms.webp`}
+              alt="Attack of the Milkworms Album Cover"
+              className="album-art"
+            />
+          </a>
           <div className="album-info">
             <h3>"ATTACK OF THE MILKWORMS"</h3>
             <p>Coming soon...</p>

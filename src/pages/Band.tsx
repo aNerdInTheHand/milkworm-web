@@ -58,7 +58,7 @@ export default function Band() {
             <span className="bio-title">Currently Listening To:</span> <br />
             <ul>
               <li>Jax Hollow</li>
-              <li>Andy Fairweather-Low</li>
+              <li>Brad Paisley</li>
               <li>Jim Croce</li>
               <li>Eilen Jewell</li>
               <li>The Cadillac Three</li>
@@ -92,6 +92,7 @@ export default function Band() {
             </ul>
             <span className="bio-title">Currently Listening To:</span> <br />
             <ul>
+              <li>The Commoners</li>
               <li>Greta Van Fleet</li>
               <li>Sam Fender</li>
               <li>The 1975</li>
