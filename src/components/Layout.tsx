@@ -3,6 +3,7 @@ import MilkwormPeek from "./MilkwormPeek";
 import "./Layout.css";
 
 export default function Layout() {
+  const base = import.meta.env.BASE_URL;
   return (
     <div className="layout">
       <MilkwormPeek />
@@ -37,10 +38,20 @@ export default function Layout() {
       <footer className="footer">
         <div className="content-container">
           <div className="social-links">
-            <p>Look out for socials coming soon...</p>
-            {/* <a href="#" className="social-link">
-              INSTAGRAM
+            <a
+              href="https://www.instagram.com/the_milkworms?igsh=dWh0cnVwcXprOTk3"
+              className="social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+              src={`${base}wormgram.png`}
+              alt="Instagram"
+              style={{ width: 20, height: 20, marginRight: 8, verticalAlign: "middle" }}
+              />
+              @THE_MILKWORMS
             </a>
+            {/* 
             <a href="#" className="social-link">
               SPOTIFY
             </a>
