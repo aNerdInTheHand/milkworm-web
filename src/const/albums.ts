@@ -4,7 +4,7 @@ export default [
   {
     id: "attack-of-the-milkworms",
     title: "ATTACK OF THE MILKWORMS",
-    releaseDate: "2025-07-28", // Future release date
+    releaseDate: "2025-06-10",
     description:
       "Our debut album, coming soon. Good old guitar-based fun. Listen to the album teaser here!",
     soundcloudLink:
@@ -98,7 +98,7 @@ Let me tell you darling that's the way it's got to be
       },
       {
         title: "LESS IS MORE",
-        trackPosition: 3,
+        trackPosition: 7,
         writtenBy: "Holvast",
         lyrics: `
 You always tell me less is more
@@ -149,9 +149,55 @@ Say you love me once in a while
         ],
       },
       {
+        title: "BORN TO BE BAD",
+        trackPosition: 3,
+        writtenBy: "Woodhouse",
+        lyrics: `
+You fly so fast
+Speed could kill
+Pushing on the gas
+Chasing that thrill
+Finger on the trigger
+Ready to blow
+Sparks to ignite
+Time for the show
+---
+You were born to be bad, bad, bad, bad
+---
+Walking round the corner
+Ready for a fight
+Never mind your bark
+You just love to bite
+Living in the fast lane
+Starts to take its toll
+You're a shadow of a man
+But you'd die for rock and roll
+---
+You were born to be bad, bad, bad, bad
+---
+You don't look so scary
+When you're on your own
+I'm starting to realise
+Your reputation's overblown
+There's times that I remember what my mother said
+The bigger they come the harder they fall
+---
+You were born to be bad, bad, bad, bad
+Born to be bad, bad, bad, bad
+        `,
+        previewLyrics: [
+          `
+Living in the fast lane
+Starts to take its toll
+You're a shadow of a man
+But you'd die for rock and roll
+          `,
+        ],
+      },
+      {
         title: "CRYIN' SHAME (WHO THE FUCK ARE YOU)",
         writtenBy: "Woodhouse",
-        trackPosition: 2,
+        trackPosition: 10,
         lyrics: `
 I remember you when you when you were twenty four
 I remember you before
@@ -204,7 +250,7 @@ But maybe that's the price of fame
       },
       {
         title: "BRINGS ME BACK",
-        trackPosition: 4,
+        trackPosition: 2,
         writtenBy: "Woodhouse",
         lyrics: `
 I can hear you breathing
@@ -431,7 +477,7 @@ Vengeance is on my mind
       },
       {
         title: "LOVE ISN'T REAL",
-        trackPosition: 7,
+        trackPosition: 9,
         writtenBy: "Woodhouse",
         lyrics: `
 It's a shame
@@ -504,7 +550,7 @@ All the tiime
       },
       {
         title: "A BRIEF TREATISE ON THE VIRTUES OF ROCK AND/OR ROLL",
-        trackPosition: 8,
+        trackPosition: 11,
         writtenBy: "Woodhouse",
         lyrics: `
 You talk about it like it's all the same
@@ -572,7 +618,7 @@ I can show you how nirvana feels
       },
       {
         title: "PRETTY AS A PICTURE",
-        trackPosition: 9,
+        trackPosition: 4,
         writtenBy: "Holvast",
         lyrics: `
 Pretty as a picture, on someone else's wall
@@ -616,7 +662,7 @@ He'd hang you up, just to watch you fall
       },
       {
         title: "MAKE MUSIC",
-        trackPosition: 10,
+        trackPosition: 12,
         writtenBy: "Holvast",
         lyrics: `
 I used to have a singer
