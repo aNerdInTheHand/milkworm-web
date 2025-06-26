@@ -42,6 +42,7 @@ export default function Home() {
             <h3>"ATTACK OF THE MILKWORMS"</h3>
             <p>Coming soon...</p>
             {/* <button className="listen-btn">LISTEN NOW</button> */}
+            {/* update to spotify link */}
           </div>
         </div>
       </section>

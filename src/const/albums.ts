@@ -4,7 +4,7 @@ export default [
   {
     id: "attack-of-the-milkworms",
     title: "ATTACK OF THE MILKWORMS",
-    releaseDate: "2025-06-10",
+    releaseDate: "2025-06-26",
     description:
       "Our debut album, coming soon. Good old guitar-based fun. Listen to the album teaser here!",
     soundcloudLink:
@@ -22,7 +22,7 @@ Did you ever get the feeling, you're swimming against the tide
 And everybody else is just enjoying the ride
 ---
 Let me tell you brother, well Karma is dead
-If it ever was alive, so get it out of your head 
+If it ever was alive, so get it out of your head
 ---
 And you know it doesn't matter, because anything you do
 Doesn't tally anywhere, it's only for you
@@ -39,7 +39,7 @@ Did you ever ask yourself why things were happening to you
 Don't you know that all those things happen to me too
 ---
 Let me tell you sister, well Karma is dead
-If it ever was alive, so get it out of your head 
+If it ever was alive, so get it out of your head
 ---
 And you know it doesn't matter, because anything you do
 Doesn't tally anywhere, it's only for you
@@ -149,6 +149,52 @@ Say you love me once in a while
         ],
       },
       {
+        title: "Don't You Come Around Here No More",
+        trackPosition: 8,
+        writtenBy: "Woodhouse",
+        lyrics: `
+A man rides a horse with an ounce of lead
+Carrying a shovel to bury his dead
+He pulls out his gun and they fall to the floor
+Good God don't you come around here no more
+---
+He rides through the dust to a band of thieves
+As the dead man's wife falls to her knees
+She howls like a child and prays to the Lord
+Good God don't you come around here no more
+---
+The sheriff walks in and looks at the floor
+He sees the still-swinging saloon door
+He looks to the sky and clenches his fists
+"I told 'em not to come around here no more"
+---
+He tears out chasing the bandits flight
+Riding harder and harder in the failing light
+He sees a flash and a missile crack
+Good God don't you come around here no more
+---
+He sees his quarry run from the house
+He sets off after them quiet as a mouse
+He doesn't know now that he's walking to a trap
+Good God he won't come around here no more
+---
+Bullets rain down from every side
+The sherriff has nowhere left to hide
+His dying words are filled with pride
+"Good God don't you come around here no more"
+        `,
+        previewLyrics: [
+          `
+She howls like a child and prays to the Lord
+Good God don't you come around here no more
+          `,
+          `
+The sheriff walks in and looks at the floor
+He sees the still-swinging saloon door
+          `,
+        ],
+      },
+      {
         title: "BORN TO BE BAD",
         trackPosition: 3,
         writtenBy: "Woodhouse",
@@ -195,7 +241,7 @@ But you'd die for rock and roll
         ],
       },
       {
-        title: "CRYIN' SHAME (WHO THE FUCK ARE YOU)",
+        title: "Close Your Eyes",
         writtenBy: "Woodhouse",
         trackPosition: 10,
         lyrics: `
@@ -425,7 +471,7 @@ Sharp teeth begin to bite
 Figures appear everywhere
 Halting me in my path
 A dark power  pulls me down
-And I know I'll feel his wrath 
+And I know I'll feel his wrath
 ---
 Sounds from out of sight
 It's a bitter twisted night
@@ -490,7 +536,7 @@ And it's always been the same old way
 It's a crime
 Sublime
 The way you take it and you keep it and you're hiding it all
-All the tiime
+All the time
 You cliimb
 And your sidekick starts to shine
 ---
@@ -509,7 +555,7 @@ That you're never coming back this time
 ---
 You're gone
 So long
-I didn't think that I could be on my own every day 
+I didn't think that I could be on my own every day
 For good
 I could
 I could think about it every night
@@ -539,12 +585,12 @@ Oh when you told me that's how you feel
 Oh when you told me love isn't real
           `,
           `
-I didn't think that I could be on my own every day 
+I didn't think that I could be on my own every day
 For good
           `,
           `
 The way you take it and you keep it and you're hiding it all
-All the tiime
+All the time
           `,
         ],
       },
@@ -554,7 +600,7 @@ All the tiime
         writtenBy: "Woodhouse",
         lyrics: `
 You talk about it like it's all the same
-You don't get why it's a crying shame 
+You don't get why it's a crying shame
 You can't feel it getting under your wings
 You don't appreciate the finer things
 You like to go out in your fancy shoes
@@ -586,7 +632,7 @@ In the light of the day
 And in the dark of the night
 You can feel the rhythm when you're out of sight
 ---
-When you're out in the woods 
+When you're out in the woods
 In the cradle of fear
 You can hear the melody with nobody near
 In the glorious sun
@@ -607,7 +653,7 @@ From the edge of the sea
 To the mountains of snow
           `,
           `
-When you're out in the woods 
+When you're out in the woods
 In the cradle of fear
           `,
           `
