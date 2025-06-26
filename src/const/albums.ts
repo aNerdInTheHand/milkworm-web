@@ -168,7 +168,7 @@ He sees the still-swinging saloon door
 He looks to the sky and clenches his fists
 "I told 'em not to come around here no more"
 ---
-He tears out chasing the bandits flight
+He tears out chasing the bandit's flight
 Riding harder and harder in the failing light
 He sees a flash and a missile crack
 Good God don't you come around here no more
