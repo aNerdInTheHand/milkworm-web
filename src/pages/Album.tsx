@@ -24,14 +24,14 @@ export default function Album() {
       year: "numeric",
       month: "long",
       day: "numeric",
-    }
+    },
   );
 
   return (
     <div className="album-page">
       <div className="album-header">
         <section className="flex-shrink-0">
-          <iframe
+          {/* <iframe
             width="100%"
             height="300"
             scrolling="no"
@@ -40,7 +40,19 @@ export default function Album() {
             src={`https://w.soundcloud.com/player/?url=${
               new URL(album.soundcloudLink).pathname
             }&color=%23d4dcda&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true`}
-          ></iframe>
+          ></iframe> */}
+          {album.spotifyLink && (
+            <iframe
+              style={{ borderRadius: "12px" }}
+              src={album.spotifyLink}
+              width="100%"
+              height="352"
+              frameBorder="0"
+              allowFullScreen={false}
+              allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
+          )}
         </section>
         <div className="album-details">
           <h1>{album.title}</h1>

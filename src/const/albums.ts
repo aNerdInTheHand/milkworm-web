@@ -4,11 +4,13 @@ export default [
   {
     id: "attack-of-the-milkworms",
     title: "ATTACK OF THE MILKWORMS",
-    releaseDate: "2025-06-26",
+    releaseDate: "2025-06-28",
     description:
-      "Our debut album, coming soon. Good old guitar-based fun. Listen to the album teaser here!",
+      "Our debut album, out now. Good old guitar-based fun. Listen to the album here!",
     soundcloudLink:
       "https://soundcloud.com/the-milkworms/attack-of-the-milkworms-album-teaser",
+    spotifyLink:
+      "https://open.spotify.com/embed/album/3BYEj6FwcO9yhj9uFVPA4h?si=nvsUHAv2TI285w-Q8lS6uQ",
     coverImage: `${base}attack-of-the-milkworms.webp`,
     songs: [
       {
@@ -179,7 +181,7 @@ He doesn't know now that he's walking to a trap
 Good God he won't come around here no more
 ---
 Bullets rain down from every side
-The sherriff has nowhere left to hide
+The sheriff has nowhere left to hide
 His dying words are filled with pride
 "Good God don't you come around here no more"
         `,
@@ -537,7 +539,7 @@ It's a crime
 Sublime
 The way you take it and you keep it and you're hiding it all
 All the time
-You cliimb
+You climb
 And your sidekick starts to shine
 ---
 Oh when you told me that's how you feel

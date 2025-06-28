@@ -18,13 +18,23 @@ export default function Home() {
       </section> */}
 
       <section className="about">
-        <h2>ATTACK OF THE MILKWORMS</h2>
+        <h2>ATTACK OF THE MILKWORMS Reviews</h2>
         <p className="bio">
-          There's something happening here...
+          <em>
+            You've cornered the gap in the market of having worms wearing hats
+            appear from the side of the screen
+          </em>{" "}
+          - Ali H
           <br />
-          What it is ain't exactly clear...
           <br />
-          Brace yourself, for THE MILKWORMS are coming.
+          <em>
+            I don't think other people in the library would appreciate me
+            blasting ATTACK OF THE MILKWORMS
+          </em>{" "}
+          - Helen K
+          <br />
+          <br />
+          <em>Get in.</em> - Anth U
         </p>
       </section>
 
@@ -40,7 +50,7 @@ export default function Home() {
           </a>
           <div className="album-info">
             <h3>"ATTACK OF THE MILKWORMS"</h3>
-            <p>Coming soon...</p>
+            <p>Listen now on all your favourite streaming services</p>
             {/* <button className="listen-btn">LISTEN NOW</button> */}
             {/* update to spotify link */}
           </div>
