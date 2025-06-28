@@ -45,19 +45,53 @@ export default function Layout() {
               rel="noopener noreferrer"
             >
               <img
-              src={`${base}wormgram.png`}
-              alt="Instagram"
-              style={{ width: 20, height: 20, marginRight: 8, verticalAlign: "middle" }}
+                src={`${base}wormgram.png`}
+                alt="Instagram"
+                style={{
+                  width: 20,
+                  height: 20,
+                  marginRight: 8,
+                  verticalAlign: "middle",
+                }}
               />
               @THE_MILKWORMS
             </a>
-            {/* 
-            <a href="#" className="social-link">
+            <a
+              href="https://open.spotify.com/album/3BYEj6FwcO9yhj9uFVPA4h?si=3ZeW1CiYQGGUaQxz6uKD-A"
+              className="social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={`${base}spotify.png`}
+                alt="Spotify"
+                style={{
+                  width: 20,
+                  height: 20,
+                  marginRight: 8,
+                  verticalAlign: "middle",
+                }}
+              />
               SPOTIFY
             </a>
-            <a href="#" className="social-link">
-              BANDCAMP
-            </a> */}
+            {/* <a
+              href="https://open.spotify.com/album/3BYEj6FwcO9yhj9uFVPA4h?si=3ZeW1CiYQGGUaQxz6uKD-A"
+              className="social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            > */}
+            <img
+              src={`${base}apple.svg`}
+              alt="Spotify"
+              style={{
+                width: 20,
+                height: 20,
+                marginRight: 8,
+                verticalAlign: "middle",
+              }}
+            />
+            Apple Music (coming soon)
+            {/* </a> */}
           </div>
         </div>
       </footer>

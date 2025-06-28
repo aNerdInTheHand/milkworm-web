@@ -4,11 +4,13 @@ export default [
   {
     id: "attack-of-the-milkworms",
     title: "ATTACK OF THE MILKWORMS",
-    releaseDate: "2025-07-28", // Future release date
+    releaseDate: "2025-06-28",
     description:
-      "Our debut album, coming soon. Good old guitar-based fun. Listen to the album teaser here!",
+      "Our debut album, out now. Good old guitar-based fun. Listen to the album here!",
     soundcloudLink:
       "https://soundcloud.com/the-milkworms/attack-of-the-milkworms-album-teaser",
+    spotifyLink:
+      "https://open.spotify.com/embed/album/3BYEj6FwcO9yhj9uFVPA4h?si=nvsUHAv2TI285w-Q8lS6uQ",
     coverImage: `${base}attack-of-the-milkworms.webp`,
     songs: [
       {
@@ -22,7 +24,7 @@ Did you ever get the feeling, you're swimming against the tide
 And everybody else is just enjoying the ride
 ---
 Let me tell you brother, well Karma is dead
-If it ever was alive, so get it out of your head 
+If it ever was alive, so get it out of your head
 ---
 And you know it doesn't matter, because anything you do
 Doesn't tally anywhere, it's only for you
@@ -39,7 +41,7 @@ Did you ever ask yourself why things were happening to you
 Don't you know that all those things happen to me too
 ---
 Let me tell you sister, well Karma is dead
-If it ever was alive, so get it out of your head 
+If it ever was alive, so get it out of your head
 ---
 And you know it doesn't matter, because anything you do
 Doesn't tally anywhere, it's only for you
@@ -98,7 +100,7 @@ Let me tell you darling that's the way it's got to be
       },
       {
         title: "LESS IS MORE",
-        trackPosition: 3,
+        trackPosition: 7,
         writtenBy: "Holvast",
         lyrics: `
 You always tell me less is more
@@ -149,9 +151,101 @@ Say you love me once in a while
         ],
       },
       {
-        title: "CRYIN' SHAME (WHO THE FUCK ARE YOU)",
+        title: "Don't You Come Around Here No More",
+        trackPosition: 8,
         writtenBy: "Woodhouse",
-        trackPosition: 2,
+        lyrics: `
+A man rides a horse with an ounce of lead
+Carrying a shovel to bury his dead
+He pulls out his gun and they fall to the floor
+Good God don't you come around here no more
+---
+He rides through the dust to a band of thieves
+As the dead man's wife falls to her knees
+She howls like a child and prays to the Lord
+Good God don't you come around here no more
+---
+The sheriff walks in and looks at the floor
+He sees the still-swinging saloon door
+He looks to the sky and clenches his fists
+"I told 'em not to come around here no more"
+---
+He tears out chasing the bandit's flight
+Riding harder and harder in the failing light
+He sees a flash and a missile crack
+Good God don't you come around here no more
+---
+He sees his quarry run from the house
+He sets off after them quiet as a mouse
+He doesn't know now that he's walking to a trap
+Good God he won't come around here no more
+---
+Bullets rain down from every side
+The sheriff has nowhere left to hide
+His dying words are filled with pride
+"Good God don't you come around here no more"
+        `,
+        previewLyrics: [
+          `
+She howls like a child and prays to the Lord
+Good God don't you come around here no more
+          `,
+          `
+The sheriff walks in and looks at the floor
+He sees the still-swinging saloon door
+          `,
+        ],
+      },
+      {
+        title: "BORN TO BE BAD",
+        trackPosition: 3,
+        writtenBy: "Woodhouse",
+        lyrics: `
+You fly so fast
+Speed could kill
+Pushing on the gas
+Chasing that thrill
+Finger on the trigger
+Ready to blow
+Sparks to ignite
+Time for the show
+---
+You were born to be bad, bad, bad, bad
+---
+Walking round the corner
+Ready for a fight
+Never mind your bark
+You just love to bite
+Living in the fast lane
+Starts to take its toll
+You're a shadow of a man
+But you'd die for rock and roll
+---
+You were born to be bad, bad, bad, bad
+---
+You don't look so scary
+When you're on your own
+I'm starting to realise
+Your reputation's overblown
+There's times that I remember what my mother said
+The bigger they come the harder they fall
+---
+You were born to be bad, bad, bad, bad
+Born to be bad, bad, bad, bad
+        `,
+        previewLyrics: [
+          `
+Living in the fast lane
+Starts to take its toll
+You're a shadow of a man
+But you'd die for rock and roll
+          `,
+        ],
+      },
+      {
+        title: "Close Your Eyes",
+        writtenBy: "Woodhouse",
+        trackPosition: 10,
         lyrics: `
 I remember you when you when you were twenty four
 I remember you before
@@ -204,7 +298,7 @@ But maybe that's the price of fame
       },
       {
         title: "BRINGS ME BACK",
-        trackPosition: 4,
+        trackPosition: 2,
         writtenBy: "Woodhouse",
         lyrics: `
 I can hear you breathing
@@ -379,7 +473,7 @@ Sharp teeth begin to bite
 Figures appear everywhere
 Halting me in my path
 A dark power  pulls me down
-And I know I'll feel his wrath 
+And I know I'll feel his wrath
 ---
 Sounds from out of sight
 It's a bitter twisted night
@@ -431,7 +525,7 @@ Vengeance is on my mind
       },
       {
         title: "LOVE ISN'T REAL",
-        trackPosition: 7,
+        trackPosition: 9,
         writtenBy: "Woodhouse",
         lyrics: `
 It's a shame
@@ -444,8 +538,8 @@ And it's always been the same old way
 It's a crime
 Sublime
 The way you take it and you keep it and you're hiding it all
-All the tiime
-You cliimb
+All the time
+You climb
 And your sidekick starts to shine
 ---
 Oh when you told me that's how you feel
@@ -463,7 +557,7 @@ That you're never coming back this time
 ---
 You're gone
 So long
-I didn't think that I could be on my own every day 
+I didn't think that I could be on my own every day
 For good
 I could
 I could think about it every night
@@ -493,22 +587,22 @@ Oh when you told me that's how you feel
 Oh when you told me love isn't real
           `,
           `
-I didn't think that I could be on my own every day 
+I didn't think that I could be on my own every day
 For good
           `,
           `
 The way you take it and you keep it and you're hiding it all
-All the tiime
+All the time
           `,
         ],
       },
       {
         title: "A BRIEF TREATISE ON THE VIRTUES OF ROCK AND/OR ROLL",
-        trackPosition: 8,
+        trackPosition: 11,
         writtenBy: "Woodhouse",
         lyrics: `
 You talk about it like it's all the same
-You don't get why it's a crying shame 
+You don't get why it's a crying shame
 You can't feel it getting under your wings
 You don't appreciate the finer things
 You like to go out in your fancy shoes
@@ -540,7 +634,7 @@ In the light of the day
 And in the dark of the night
 You can feel the rhythm when you're out of sight
 ---
-When you're out in the woods 
+When you're out in the woods
 In the cradle of fear
 You can hear the melody with nobody near
 In the glorious sun
@@ -561,7 +655,7 @@ From the edge of the sea
 To the mountains of snow
           `,
           `
-When you're out in the woods 
+When you're out in the woods
 In the cradle of fear
           `,
           `
@@ -572,7 +666,7 @@ I can show you how nirvana feels
       },
       {
         title: "PRETTY AS A PICTURE",
-        trackPosition: 9,
+        trackPosition: 4,
         writtenBy: "Holvast",
         lyrics: `
 Pretty as a picture, on someone else's wall
@@ -616,7 +710,7 @@ He'd hang you up, just to watch you fall
       },
       {
         title: "MAKE MUSIC",
-        trackPosition: 10,
+        trackPosition: 12,
         writtenBy: "Holvast",
         lyrics: `
 I used to have a singer
